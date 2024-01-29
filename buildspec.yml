@@ -8,3 +8,6 @@ phases:
     commands: 
       - echo "Installing Dependencies"
       - npm install 
+artifacts:
+  files:
+    - "**/*"
