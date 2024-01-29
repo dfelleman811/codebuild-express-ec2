@@ -5,7 +5,7 @@ const HOST = "0.0.0.0"
 
 
 app.get("/", (req, res) => {
-    res.status(200).send({message: "Hello from the EC2- maybe? - I rebooted them"})
+    res.status(200).send({message: "Hello from the EC2- maybe? - I rebooted them. And gave root user npm. Fingers crossed!"})
 });
 
 app.listen(PORT, () => {
