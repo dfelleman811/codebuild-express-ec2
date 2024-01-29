@@ -5,7 +5,7 @@ const HOST = "0.0.0.0"
 
 
 app.get("/", (req, res) => {
-    res.status(200).send({message: "Last try for the day with app already running"})
+    res.status(200).send({message: "Last try with app already running"})
 });
 
 app.listen(PORT, () => {
