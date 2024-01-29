@@ -1,0 +1,19 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /express/DemoExpressApp
+    overwrite: true
+hooks:
+  AfterInstall:
+    - location: scripts/after-install.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: scripts/app-start.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/app-stop.sh
+      timeout: 300
+      runas: root
