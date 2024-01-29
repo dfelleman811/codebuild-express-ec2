@@ -1,0 +1,14 @@
+{
+  "name": "codebuild-express-ec2",
+  "version": "1.0.0",
+  "description": "Demo Express App to show off using CodeBuild to deplyo to ec2",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Felleman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
