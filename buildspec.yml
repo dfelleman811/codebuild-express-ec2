@@ -4,7 +4,6 @@ phases:
   install:
     runtime-versions:
       nodejs: 20.x
-  build:
     commands: 
       - echo "Installing Dependencies"
       - npm install 
