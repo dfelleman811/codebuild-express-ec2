@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /express/DemoExpressApp
+cd /home/express/DemoExpressApp
 npm install

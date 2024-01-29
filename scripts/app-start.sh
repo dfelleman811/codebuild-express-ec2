@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /express/DemoExpressApp
+cd /home/express/DemoExpressApp
 node app.js > /dev/null 2>&1 &
