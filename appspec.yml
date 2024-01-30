@@ -4,6 +4,13 @@ files:
   - source: /
     destination: /home/express/DemoExpressApp
     overwrite: true
+permissions:
+  - object: /home/express/DemoExpressApp
+    pattern: "**"
+    owner: ec2-user
+    mode: 444
+    type:
+      - file
 hooks:
   AfterInstall:
     - location: scripts/after-install.sh
